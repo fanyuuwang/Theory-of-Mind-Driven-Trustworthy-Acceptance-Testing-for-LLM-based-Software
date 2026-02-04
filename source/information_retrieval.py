@@ -110,7 +110,7 @@ def do_retrival(user_queries, user_situations, n):
 
         total_results.append(enhanced_results)
 
-        with open(f'/home/fanyuw/fanyu/LLM_acc_testing/dataset/basic_results_with_score{n}.json', 'w') as outfile:
+        with open(f'PATH_TO_RETREIVED_RESULTS', 'w') as outfile:
             json.dump(total_results, outfile)
 
 
